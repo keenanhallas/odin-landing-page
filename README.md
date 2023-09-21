@@ -6,7 +6,7 @@ The goal of this project is to create a landing page from scratch, starting with
 
 The intention here is to put to use all of the fundamental aspects of HTML & CSS that have been covered so far in the Odin Project Foundations Course. Starting out, I see the key areas of focus being:
 
-    - Building a page from the ground up, using a blank repo, to simulate a more "real-world" scenario
+    - Building a page from the ground up, using a blank repo, to simulate a more "real-world" working environment
     - Practicing how to break down a design doc into smaller chunks that can be created one by one without being overwhelming
     - Starting to develop a workflow working with both HTML & CSS - moving from structure first into styling
     - Practicing using Google when I encounter something that hasn't been touched yet in the course material
