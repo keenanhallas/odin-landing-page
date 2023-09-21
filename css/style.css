@@ -17,20 +17,20 @@ a {
     text-decoration: none;
 }
 
-.header-container {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2973;
 }
 
-.header-links ul {
+.header-links {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.header-links ul a,
+.header-links a,
 .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
