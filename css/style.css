@@ -53,7 +53,7 @@ a {
 
 .header,
 .hero-banner {
-    background-color: #1F2973;
+    background-color: #1F2937;
 }
 
 .hero-banner {
@@ -82,4 +82,51 @@ a {
     padding: 10px 30px;
     border-radius: 10px;
     border: none;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 80px 0px;
+    color: #1F2937;
+}
+
+.random-info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    /* Eventually it would be cool for the gap to be dependent on page width */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-img {
+    /* width: 100%;
+    height: auto; */
+    min-width: 150px;
+    min-height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    /* Ideally it would be cool for the icons to grow/shrink a bit as the page is resized, but keep their aspect ratios. My current understanding is that this won't work with empty placeholder divs, because they will only be as big as their content or min-size. Having an icon inside them would fix this I believe*/
+}
+
+.card-text {
+    width: 0px;
+    min-width: 100%;
+    text-align: center;
 }
