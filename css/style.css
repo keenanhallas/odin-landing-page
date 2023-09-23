@@ -14,7 +14,8 @@ body {
 .hero-banner,
 .random-info,
 .quote-section,
-.call-to-action {
+.call-to-action,
+.footer {
     padding: 0px 40px;
 }
 
@@ -35,7 +36,8 @@ a {
 }
 
 .header-links a,
-.site-description {
+.site-description,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -58,7 +60,8 @@ a {
 }
 
 .header,
-.hero-banner {
+.hero-banner,
+.footer {
     background-color: #1F2937;
 }
 
@@ -212,4 +215,9 @@ a {
 
 .info-text p {
     margin: 0px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0px;
 }
