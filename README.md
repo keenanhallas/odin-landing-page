@@ -1,5 +1,7 @@
 # odin-landing-page
 
+https://keenanhallas.github.io/odin-landing-page
+
 ## Initial thoughts:
 
 The goal of this project is to create a landing page from scratch, starting with a blank repo, and based on the provided design files (included in this repo). The MVP is simply to have a page that looks relatively close to the design file, and is sufficiently responsive in a web browser - not to create a pixel-perfect match or have a page that looks correct on mobile devices.
