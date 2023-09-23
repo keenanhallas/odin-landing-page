@@ -13,7 +13,8 @@ body {
 .header,
 .hero-banner,
 .random-info,
-.quote-section {
+.quote-section,
+.call-to-action {
     padding: 0px 40px;
 }
 
@@ -51,7 +52,8 @@ a {
 
 .header-logo,
 .main-title,
-.sign-up-button {
+.sign-up-button,
+.sign-up-block {
     color: #F9FAF8;
 }
 
@@ -88,8 +90,11 @@ a {
     background-color: #3882F6;
     font-size: 18px;
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 8px 30px;
     border-radius: 10px;
+}
+
+.info-signup .sign-up-button {
     border: none;
 }
 
@@ -170,4 +175,41 @@ a {
     margin-right: 30px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.sign-up-block {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    margin: 0px 40px;
+    border-radius: 5px;
+    gap: 100px;
+}
+
+.info-text {
+    flex: 1 1 auto;
+}
+
+.action-button {
+    border: 2px solid #F9FAF8;
+    flex: 0 0 auto;
+}
+
+.attention {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-text p {
+    margin: 0px;
 }
