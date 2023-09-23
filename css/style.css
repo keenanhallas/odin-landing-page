@@ -123,6 +123,7 @@ a {
 .card-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
 
     /* Eventually it would be cool for the gap to be dependent on page width */
